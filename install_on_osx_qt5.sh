@@ -50,7 +50,7 @@ then
 	fi
 else
 	printf "[INFO]\tCloning hyperion repo...\n"
-	git clone --recursive git@github.com:TheMickeyMike/hyperion.git $REPO_DIRECTORY
+	git clone --recursive https://github.com/TheMickeyMike/hyperion.git $REPO_DIRECTORY
 fi
 
 cd $REPO_DIRECTORY || exit 1;
