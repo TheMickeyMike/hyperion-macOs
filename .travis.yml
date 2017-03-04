@@ -1,0 +1,10 @@
+language: bash
+os:
+  - osx
+  
+before_script:
+  - brew update
+  - brew install qt5
+
+script:
+    - bash install_on_osx_qt5.sh
