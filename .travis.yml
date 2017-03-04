@@ -1,0 +1,15 @@
+language: bash
+os:
+  - osx
+
+env:
+
+before_script:
+  # - brew update
+  - brew install qt5
+  - brew install libusb
+  - export PATH=$PATH:/usr/local/opt/qt5/bin
+  - 
+
+script:
+    - bash install_on_osx_qt5.sh

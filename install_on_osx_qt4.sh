@@ -17,8 +17,3 @@ cmake -DENABLE_DISPMANX=OFF \
 -DENABLE_PROTOBUF=OFF ..
 
 make
-
-mkdir -p ~/hyperion/bin
-cp bin/hyperiond ~/hyperion/bin
-cp -r ../effects ~/hyperion/
-cd ~/hyperion
