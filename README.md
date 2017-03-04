@@ -1,4 +1,7 @@
 # hyperion-MacOS
+
+[![Build Status](https://travis-ci.org/TheMickeyMike/hyperion-MacOS.svg?branch=master)](https://travis-ci.org/TheMickeyMike/hyperion-MacOS)
+
 Install hyperion on MacOS
 
 https://www.mattgibson.ca/compiling-hyperion-for-phillips-hue-support-on-mac-osx/
