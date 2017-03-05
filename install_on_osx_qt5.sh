@@ -78,7 +78,7 @@ echo -e "${GREEN}[OK]${NC}\tmake";
 
 echo -e "[INFO]\tStarting installation..."
 if [ -d "$HYPERION_INSTALLATION_MAIN_DIRECTORY" ]; then
-  rm -rf $HYPERION_INSTALLATION_MAIN_DIRECTORY
+  sudo rm -rf $HYPERION_INSTALLATION_MAIN_DIRECTORY
 fi
 sudo mkdir $HYPERION_INSTALLATION_MAIN_DIRECTORY
 sudo chown "$(whoami)":admin $HYPERION_INSTALLATION_MAIN_DIRECTORY
@@ -103,7 +103,6 @@ cp ./bin/hyperion-remote $HYPERION_INSTALLATION_BIN_DIRECTORY
 cp ./bin/hyperion-osx $HYPERION_INSTALLATION_BIN_DIRECTORY
 cd ../effects && cp ./* $HYPERION_INSTALLATION_EFFECTS_DIRECTORY
 ln -s $HYPERION_INSTALLATION_BIN_DIRECTORY/$HYPERION_DAEMON $HYPERION_BIN_DIRECTORY/$HYPERION_DAEMON
-echo -e "${GREEN}[OK]${NC}\tInstallation";
 
 echo -e "[INFO]\tPerforming post installation checks..."
 if ! type "$HYPERION_DAEMON" > /dev/null; then
