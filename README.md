@@ -13,7 +13,7 @@ Simple bash script wrapping hyperion build & installation under macOS. Script is
 ### How to use
 1. Clone repo `git clone https://github.com/TheMickeyMike/hyperion-macOs.git`
 2. Navigate to repo `cd hyperion-macOs/`
-3. Execute installation script `./install_on_osx_qt5.sh`. **Before installation, please back up** all your configs and effects! __More in [Before you start]().__
+3. Execute installation script `./install_on_osx_qt5.sh`. **Before installation, please back up** all your configs and effects! __More in [Before you start](#before-you-start).__
 
 ### Problem solver
 + Im getting `-bash: ./install_on_osx_qt5.sh: Permission denied` after executing command `./install_on_osx_qt5.sh`.
