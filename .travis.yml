@@ -2,6 +2,7 @@ language: bash
 
 os:
   - osx
-
+env:
+  - PATH="/usr/local/opt/qt5/bin:$PATH"
 script:
     - bash install_on_osx_qt5.sh
